@@ -1,4 +1,4 @@
-package d01
+package puzzles
 
 import (
 	"log"
@@ -6,12 +6,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/tobby-s/advent-of-code-2024/common"
+	"github.com/tobby-s/advent-of-code-2024/utils"
 )
 var url = "https://adventofcode.com/2024/day/1/input"
 
-func Puzz1() int {
-	data, err := common.LoadData(url)
+func D1P1() int {
+	data, err := utils.LoadData(url)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -38,8 +38,8 @@ func Puzz1() int {
 	return sum
 }
 
-func Puzz2() int {
-	data, err := common.LoadData(url)
+func D1P2() int {
+	data, err := utils.LoadData(url)
 	if err != nil {
 		log.Fatal(err)
 	}
