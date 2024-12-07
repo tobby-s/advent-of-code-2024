@@ -4,11 +4,11 @@ import (
 	"fmt"
 
 	"github.com/tobby-s/advent-of-code-2024/puzzles"
-
 )
 
 var sols = [][2]func() int{
 	{puzzles.D1P1, puzzles.D1P2},
+	{puzzles.D2P1, nil},
 }
 
 func main() {
