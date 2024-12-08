@@ -1,12 +1,10 @@
 package puzzles
 
 import (
-	"fmt"
 	"regexp"
 	"strconv"
 
 	"github.com/tobby-s/advent-of-code-2024/utils"
-
 )
 
 func D3P1() int {
