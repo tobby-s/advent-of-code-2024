@@ -1,7 +1,6 @@
 package puzzles
 
 import (
-	"log"
 	"slices"
 	"strconv"
 	"strings"
@@ -11,10 +10,7 @@ import (
 var url = "https://adventofcode.com/2024/day/1/input"
 
 func D1P1() int {
-	data, err := utils.LoadData(url)
-	if err != nil {
-		log.Fatal(err)
-	}
+	data := utils.LoadData(url)
 	var list1, list2 []int
 	for _, s := range data {
 		ids := strings.Split(s, "   ")
@@ -39,10 +35,8 @@ func D1P1() int {
 }
 
 func D1P2() int {
-	data, err := utils.LoadData(url)
-	if err != nil {
-		log.Fatal(err)
-	}
+	data := utils.LoadData(url)
+
 	map1, map2 := map[int]int{}, map[int]int{}
 	for _,s := range data {
 		ids := strings.Split(s, "   ")

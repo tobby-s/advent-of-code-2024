@@ -6,14 +6,12 @@ import (
 	"strings"
 
 	"github.com/tobby-s/advent-of-code-2024/utils"
+
 )
 
 func D2P1() int {
 	url := "https://adventofcode.com/2024/day/2/input"
-	data, err := utils.LoadData(url)
-	if err != nil {
-		log.Fatal(err)
-	}
+	data := utils.LoadData(url)
 	safeCount := 0
 	for _, s := range data {
 		ints := strings.Split(s, " ")
@@ -29,10 +27,7 @@ func D2P1() int {
 
 func D2P2() int {
 	url := "https://adventofcode.com/2024/day/2/input"
-	data, err := utils.LoadData(url)
-	if err != nil {
-		log.Fatal(err)
-	}
+	data := utils.LoadData(url)
 	safeCount := 0 
 	for _, s := range data {
 		ints := strings.Split(s, " ")
