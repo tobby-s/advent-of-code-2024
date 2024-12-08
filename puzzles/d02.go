@@ -1,12 +1,10 @@
 package puzzles
 
 import (
-	"log"
 	"strconv"
 	"strings"
 
 	"github.com/tobby-s/advent-of-code-2024/utils"
-
 )
 
 func D2P1() int {
