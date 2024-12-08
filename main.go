@@ -8,7 +8,7 @@ import (
 
 var sols = [][2]func() int{
 	{puzzles.D1P1, puzzles.D1P2},
-	{puzzles.D2P1, nil},
+	{puzzles.D2P1, puzzles.D2P2},
 }
 
 func main() {
