@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.com/tobby-s/advent-of-code-2024/puzzles"
+
 )
 
 var sols = [][2]func() int{
@@ -14,6 +15,7 @@ var sols = [][2]func() int{
 	{puzzles.D5P1, puzzles.D5P2},
 	{puzzles.D6P1, nil}, // d6p2 slow
 	{puzzles.D7P1, puzzles.D7P2},
+	{puzzles.D8P1, puzzles.D8P2},
 }
 
 func main() {
