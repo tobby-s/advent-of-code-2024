@@ -16,6 +16,7 @@ var sols = [][2]func() int{
 	{puzzles.D7P1, puzzles.D7P2},
 	{puzzles.D8P1, puzzles.D8P2},
 	{puzzles.D9P1, puzzles.D9P2},
+	{puzzles.D10P1, puzzles.D10P2},
 }
 
 func main() {
