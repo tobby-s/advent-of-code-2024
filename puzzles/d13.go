@@ -54,7 +54,6 @@ func D13P1() (result int) {
 			aCount += 1
 		}
 		if len(possibleCosts) > 0 {
-			fmt.Println(possibleCosts, m)
 			result += slices.Min(possibleCosts)
 		}
 	}
@@ -109,6 +108,7 @@ func D13P2() (result int) {
 				}
 			}
 			if len(possibleCosts) > 0 {
+				fmt.Print(m)
 				result += slices.Min(possibleCosts)
 			}
 		}

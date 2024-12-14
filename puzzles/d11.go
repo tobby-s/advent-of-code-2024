@@ -43,7 +43,6 @@ func blink(stones []string) []string {
 			newstones = append(newstones, fmt.Sprintf("%d", num*2024))
 		}
 	}
-	fmt.Println(newstones)
 	return newstones
 }
 
